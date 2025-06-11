@@ -35,7 +35,7 @@ root_dir/
 ├── ... 
 
 ```
-Update the path to `root_dir` in [`DeepSparseCBCT/config/DeepSparseCBCT_s1.yaml`](DeepSparseCBCT/config/DeepSparseCBCT_s1.yaml)
+Update the path to `root_dir` in [`DeepSparseCBCT/config/DeepSparseCBCT_s1.yaml`](https://github.com/Mors20/DeepSparseCBCT/config/DeepSparseCBCT_s1.yaml)
 
 ### 2️⃣ For Stage 2 and 3: 
 
@@ -49,8 +49,8 @@ gt_dir/
 ├── ... 
 ```
 Update the paths to input_dir and gt_dir in:
-* DeepSparseCBCT/config/DeepSparseCBCT_s2.yaml
-* DeepSparseCBCT/config/DeepSparseCBCT_s3.yaml
+* [`DeepSparseCBCT/config/DeepSparseCBCT_s2.yaml`](https://github.com/Mors20/DeepSparseCBCT/config/DeepSparseCBCT_s2.yaml)
+* [`DeepSparseCBCT/config/DeepSparseCBCT_s3.yaml`](https://github.com/Mors20/DeepSparseCBCT/config/DeepSparseCBCT_s3.yaml)
 
 
 ## 🧪 Training Pipeline
