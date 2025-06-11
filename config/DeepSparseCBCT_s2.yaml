@@ -1,0 +1,38 @@
+model:
+  seed: 1234
+  batch_size: 2
+  num_workers: 8
+
+  gpus: 1
+  default_root_dir: Your_default_root_dir
+  vqgan_ckpt: Your_stage1_ckpt
+  resume_from_checkpoint:
+  max_epochs: 10000
+  max_steps: 1000000
+  precision: bf16
+
+
+  embedding_dim: 256
+  n_codes: 1024
+  n_hiddens: 48
+  lr: 3e-4
+  downsample: [4, 4, 4]
+  feat_loss_weight: 1
+  ce_loss_weight: 1
+  l1_weight: 1.0
+  restart_thres: 1.0
+  no_random_restart: False
+  norm_type: group
+  num_groups: 24
+  n_layers: 4
+  dim_mlp: 1024
+  dim_embd: 512
+
+
+
+dataset:
+  input_dir: Your_low_dose_dir
+  gt_dir: Your_high_dose_dir
+  image_channels: 1
+  imgtype: CT
+  patch_size: 128
